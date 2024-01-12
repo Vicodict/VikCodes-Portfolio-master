@@ -26,7 +26,7 @@ export const frontendData = [
     id: 4,
     title: "TypeScript",
     icon: <FaCheckCircle />,
-    rating: 3.0,
+    rating: 2.5,
     level: "Intermidiate",
   },
   {
