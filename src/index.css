@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    background: linear-gradient(#1f1f38, #1f1f3899),
+      url(./assets/portfoliobg.jpg);
+    color: #fff;
+    line-height: 1.7;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  /* ::-webkit-scrollbar {
+                        display: none;
+            } */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 500;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  section {
+    margin-top: 8rem;
+    min-height: 100vh;
+  }
+  section > h2,
+  section > h5 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  section > h2 {
+    color: #4db5ff;
+    margin-bottom: 3rem;
+  }
+  a {
+    color: #4db5ff;
+    transition: all 400ms ease;
+  }
+  a:hover {
+    color: #fff;
+  }
+  img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@layer components {
+  .color-bg {
+    background-color: #1f1f38;
+  }
+  .color-bg-variant {
+    background-color: #2c2c6c;
+  }
+  .color-primary {
+    color: #4db5ff;
+  }
+  .color-primary-variant {
+    color: rgba(77, 181, 255, 0.4);
+  }
+  .color-white {
+    color: #fff;
+  }
+  .text-light {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .container-width-lg {
+    width: 75%;
+  }
+  .container-width-md {
+    width: 86%;
+  }
+  .container-width-sm {
+    width: 90%;
+  }
+  .trans {
+    transition: all 400ms ease;
+  }
+  .btn {
+    width: max-content;
+    display: inline-block;
+    color: #4db5ff;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid #4db5ff;
+    transition: all 400ms ease;
+  }
+  .btn:hover {
+    background-color: #fff;
+    color: #1f1f38;
+    border-color: transparent;
+  }
+  .btn-primary {
+    background: #4db5ff;
+    color: #1f1f38;
+  }
+}
