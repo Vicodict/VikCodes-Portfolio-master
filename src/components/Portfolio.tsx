@@ -44,7 +44,7 @@ const SinglePortFolio = ({ portifolioData }: SinglePortFolioprops) => {
       </div>
       <h3 className="mt-5 mx-0 mb-8">{title}</h3>
       <div className="flex items-center justify-between w-4/5 mx-auto my-4">
-        <a href={github} className="btn" target="_blank">
+        <a href={""} className="btn" target="_blank">
           Github
         </a>
         <a href={demo} className="btn btn-primary" target="_blank">
