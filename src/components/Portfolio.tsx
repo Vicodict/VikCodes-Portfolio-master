@@ -27,14 +27,13 @@ interface SinglePortFolioprops {
   portifolioData: {
     id: number;
     title: string;
-    github: string;
     demo: string;
     image: string;
   };
 }
 
 const SinglePortFolio = ({ portifolioData }: SinglePortFolioprops) => {
-  const { id, title, github, demo, image } = portifolioData;
+  const { id, title, demo, image } = portifolioData;
   return (
     <article
       className="portfolio_item color-bg-variant p-2 md:p-[1.3rem] rounded-3xl border-solid border border-transparent duration-500 hover:bg-transparent hover:border-[rgba(77,181,255,0.4)] h-fit"
