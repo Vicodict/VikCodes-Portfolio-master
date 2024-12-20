@@ -1,4 +1,4 @@
-import CV from "../assets/Ezeudo Victoria Web CV.pdf";
+import CV from "../assets/Ezeudo Victoria Chidumaga.pdf";
 const CTA = (): JSX.Element => {
   return (
     <div className="flex gap-4 mt-10 justify-center">

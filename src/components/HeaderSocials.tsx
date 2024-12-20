@@ -2,10 +2,10 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 const HeaderSocials = () => {
   return (
     <div className="flex-col items-center gap-4 absolute left-0 bottom-12 hidden md:flex">
-      <a href="https://linkedin.com" target="_blank" className="">
+      <a href="https://www.linkedin.com/in/victoria-chidumaga" target="_blank" className="">
         <FaLinkedin />
       </a>
-      <a href="https://github.com" target="_blank" className="">
+      <a href="https://github.com/vicodict" target="_blank" className="">
         <FaGithub />
       </a>
       <a href="https://facebook.com" target="_blank" className="">

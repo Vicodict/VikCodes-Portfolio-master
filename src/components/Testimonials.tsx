@@ -3,7 +3,7 @@ import p1 from "../assets/avatar.jpg";
 import p3 from "../assets/avatar.jpg";
 import p4 from "../assets/peace.jpg";
 // import p5 from "../assets/avatar.jpg";
-import p6 from "../assets/onyinye.jpg";
+// import p6 from "../assets/onyinye.jpg";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 
@@ -37,13 +37,13 @@ const TestimonialData = [
       "Without doubt one of the most passionate and talented programmers out there.  I always go back to Ezeudo Victoria when I'm out of my depth and she's never failed to deliver what I ask for.   Smart, trustworthy and professional.   You won't be disappointed.",
   },
 
-  {
-    id: 6,
-    image: p6,
-    Name: "Onyebuchi Onyinyechi Peace",
-    review:
-      "Fantastic service and great lady. she works with passion and is always eager to advance in her learning",
-  },
+  // {
+  //   id: 6,
+  //   image: p6,
+  //   Name: "Onyebuchi Onyinyechi Peace",
+  //   review:
+  //     "Fantastic service and great lady. she works with passion and is always eager to advance in her learning",
+  // },
 ];
 
 // interface SingleTestimonialProps {

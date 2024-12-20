@@ -1,6 +1,6 @@
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
-import Ekene from "../assets/Vicky png2.png";
+import Vicky from "../assets/Vicky3.png";
 
 const Header = (): JSX.Element => {
   return (
@@ -13,7 +13,7 @@ const Header = (): JSX.Element => {
         </h5>
         <CTA />
         <div className="bg-gradient-to-t from-[#4db5ff] to-transparent w-[90%] max-w-[22rem] sm:w-[22rem]  h-[30rem]  mx-auto md:mt-16 mt-4 rounded-t-full overflow-hidden md:pt-20 pt-5">
-          <img src={Ekene} alt="my passport" className="w-full h-full " />
+          <img src={Vicky} alt="my passport" className="w-full h-full " />
         </div>
         <a
           href="#contact"

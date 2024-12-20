@@ -1,25 +1,36 @@
 import Container from "./Container";
-import port1 from "../assets/ngwf.jpg";
-import port4 from "../assets/weatherforcast.jpg";
+import port1 from "../assets/orbitexsolarenergy_homepage.png";
+import port2 from "../assets/kencodicttech_homepage.png";
+import port4 from "../assets/KennySchool.png";
 import port5 from "../assets/myProjectImg.png";
 
 const portfolioData = [
   {
     id: 1,
-    title: "Nigeria Weather Forcast",
-    demo: "https://magnificent-naiad-4fe599.netlify.app/",
+    title: "Solar Energy Website",
+    demo: "https://orbitexsolarenergy.com.ng/",
+    github: "https://github.com/Ezeora-Kenechukwu/obsessed-wep",
     image: port1,
   },
   {
+    id: 2,
+    title: "Tech Company Website",
+    demo: "https://kencodicttech.obsessed.com.ng/",
+    github:"https://github.com/Ezeora-Kenechukwu/KencodictTech",
+    image: port2,
+  },
+  {
     id: 4,
-    title: "Weather Forcast ",
-    demo: "https://kencodict.netlify.app/",
+    title: "School Management System ",
+    demo: "https://kennyschoolsfronter.vercel.app/",
+    github:"https://github.com/Ezeora-Kenechukwu/kennyschoolsfronter",
     image: port4,
   },
   {
     id: 5,
     title: "E-Commerse website",
     demo: "https://sellit-nine.vercel.app",
+    github:"",
     image: port5,
   },
 ];
@@ -28,12 +39,13 @@ interface SinglePortFolioprops {
     id: number;
     title: string;
     demo: string;
+    github: string;
     image: string;
   };
 }
 
 const SinglePortFolio = ({ portifolioData }: SinglePortFolioprops) => {
-  const { id, title, demo, image } = portifolioData;
+  const { id, title, demo, github, image } = portifolioData;
   return (
     <article
       className="portfolio_item color-bg-variant p-2 md:p-[1.3rem] rounded-3xl border-solid border border-transparent duration-500 hover:bg-transparent hover:border-[rgba(77,181,255,0.4)] h-fit"
@@ -44,7 +56,7 @@ const SinglePortFolio = ({ portifolioData }: SinglePortFolioprops) => {
       </div>
       <h3 className="mt-5 mx-0 mb-8">{title}</h3>
       <div className="flex items-center justify-between w-4/5 mx-auto my-4">
-        <a href={""} className="btn" target="_blank">
+        <a href={github} className="btn" target="_blank">
           Github
         </a>
         <a href={demo} className="btn btn-primary" target="_blank">

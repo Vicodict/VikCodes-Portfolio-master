@@ -33,23 +33,23 @@ export const frontendData = [
     id: 5,
     title: "React",
     icon: <FaCheckCircle />,
-    rating: 3.0,
-    level: "Intermediate",
+    rating: 4.5,
+    level: "Experienced",
   },
 
   {
     id: 6,
     title: "Tailwind Css",
     icon: <FaCheckCircle />,
-    rating: 2.5,
-    level: "Learning",
+    rating: 4.5,
+    level: "Experienced",
   },
   {
     id: 8,
     title: "Bootstrap",
     icon: <FaCheckCircle />,
-    rating: 2.5,
-    level: "Learning",
+    rating: 3.5,
+    level: "Intermediate",
   },
   {
     id: 9,
@@ -94,6 +94,20 @@ export const frontendData = [
     icon: <FaCheckCircle />,
     rating: 4.0,
     level: "Experienced",
+  },
+  {
+    id: 19,
+    title: "MySql",
+    icon: <FaCheckCircle />,
+    rating: 4.0,
+    level: "Experienced",
+  },
+  {
+    id: 20,
+    title: "Php",
+    icon: <FaCheckCircle />,
+    rating: 3.0,
+    level: "Intermmediate",
   },
 ];
 export const graphics = [
