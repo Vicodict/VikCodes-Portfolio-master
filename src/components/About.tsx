@@ -31,7 +31,7 @@ const About = () => {
       <h2 className="">About Me</h2>
       <div className="about-cont w-[90%] md:w-[86%] lg:grid-cols-[35%,50%] grid lg:gap-[15%] lg:w-[75%] mx-auto md:grid-cols-1 md:gap-0 ">
         <div className="about__me md:w-1/2 md:mt-8 md:mx-auto md:mb-16  lg:w-full aspect-square rounded-3xl bg-gradient-to-tr from-transparent via-[#4db5ff] to-transparent grid place-items-center max-w-sm mb-10 mx-auto">
-          <div className="about__me-image rounded-3xl overflow-hidden rotate-6 duration-500 hover:rotate-0 h-full w-full md:max-w-sm max-w-sm">
+          <div className="about__me-image rounded-3xl overflow-hidden rotate-0 duration-500 hover:rotate-6 h-full w-full md:max-w-sm max-w-sm">
             <img
               src={kenCodict}
               alt="Ezeudo Victoria Passport"

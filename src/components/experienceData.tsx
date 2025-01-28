@@ -106,7 +106,7 @@ export const frontendData = [
     id: 20,
     title: "Php",
     icon: <FaCheckCircle />,
-    rating: 3.0,
+    rating: 3.5,
     level: "Intermmediate",
   },
 ];

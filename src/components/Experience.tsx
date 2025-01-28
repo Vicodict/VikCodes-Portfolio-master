@@ -76,7 +76,7 @@ const Experience = () => {
       <h2>My Experience</h2>
       <Container className="experience__container grid grid-cols-1 md:grid-cols-[repeat(auto-fit,minmax(400px,1fr))] md:gap-[50px] gap-x-0 md:gay-x-[20px] gap-y-[20px] ">
         <ExperienceBox
-          title="Front End/Web Development"
+          title="Web Design & Development"
           experiences={frontendData}
           className=""
         />

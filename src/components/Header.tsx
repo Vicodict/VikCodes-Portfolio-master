@@ -9,7 +9,7 @@ const Header = (): JSX.Element => {
         <h5 className="text-center">Hello I am</h5>
         <h1 className="text-center">Ezeudo Victoria Chidumaga.</h1>
         <h5 className="text-light text-center">
-          Frontend Developer and UI/UX Designer
+          Web Developer and UI/UX Designer
         </h5>
         <CTA />
         <div className="bg-gradient-to-t from-[#4db5ff] to-transparent w-[90%] max-w-[22rem] sm:w-[22rem]  h-[30rem]  mx-auto md:mt-16 mt-4 rounded-t-full overflow-hidden md:pt-20 pt-5">
